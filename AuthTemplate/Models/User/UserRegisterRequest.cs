@@ -55,6 +55,7 @@ public sealed class UserRegisterRequestValidator : AbstractValidator<UserRegiste
 
         RuleFor(x => x.DateOfBirthUtc)
             .Must(d => d >= DateOnly.FromDateTime(DateTime.Today))
+            .When(x => x.DateOfBirthUtc.HasValue)
             .WithMessage("Date of birth must be in the past");
     }
 }
