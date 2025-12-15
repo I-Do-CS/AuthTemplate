@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ali Ghelichkhani",
+  "classifications": ["Web", "API", "ASP.NET Core"],
+  "name": "ASP.NET Core Auth API",
+  "identity": "YourCompany.AuthTemplate",
+  "shortName": "auth-api",
+  "sourceName": "AuthTemplate",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
